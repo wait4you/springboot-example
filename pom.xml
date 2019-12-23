@@ -11,6 +11,7 @@
     <modules>
         <module>study-swagger2</module>
         <module>study-mongo</module>
+        <module>study-quartz</module>
     </modules>
 
     <parent>
@@ -19,6 +20,25 @@
         <version>2.1.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <properties>
+        <mysql-connector.version>8.0.15</mysql-connector.version>
+        <mybatis.version>3.4.6</mybatis.version>
+        <quartz.version>2.3.1</quartz.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>${quartz.version}</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>

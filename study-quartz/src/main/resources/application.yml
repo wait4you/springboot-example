@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    include: quartz
+  datasource:
+    url: jdbc:mysql://localhost:3306/iyou?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+logging:
+  level:
+    com.ithua.quartz: debug
+    org.qurtz-scheduler: trace
+    org.mybatis: trace
+    com.baomidou: debug
+
+
+
