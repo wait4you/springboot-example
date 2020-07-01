@@ -24,7 +24,7 @@
     <properties>
         <mysql-connector.version>8.0.15</mysql-connector.version>
         <mybatis.version>3.4.6</mybatis.version>
-        <quartz.version>2.3.1</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
     </properties>
 
     <dependencies>
